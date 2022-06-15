@@ -1,0 +1,54 @@
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.btn {
+  border: none;
+}
+
+.initial {
+  height: 100%;
+}
+
+.error-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+.error-actions {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.error-actions .btn {
+  margin-right: 10px;
+}
+
+.intro {
+  height: 100%;
+}
+
+table td,
+table th {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+thead th {
+  color: #fff;
+}
+
+.card {
+  border-radius: 0.5rem;
+}
+
+.table-scroll {
+  border-radius: 0.5rem;
+}
+
+.table-scroll table thead th {
+  font-size: 1.25rem;
+}
